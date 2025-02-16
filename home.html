@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Space!</title>
+        <link rel="stylesheet" href="home.css" />
+        <script defer src="home.js"></script>
+    </head>
+    <body>
+       
+        <header><h1 class="header-logo">SPACE EXPLORATION!</h1></header>
+        <form class="space">
+            <div class="space-row">
+                <p class="space-question">Which planet you want to Explore?</p>
+                <div class="space-answers">
+                    <label class="space-answer">
+                        <input type="radio" name="question-1" value="Saturn" class="space-answer-radio">
+                        Saturn
+                    </label>
+                </div>
+                <div class="space-answers">
+                    <label class="space-answer">
+                        <input type="radio" name="question-1" value="Mercury" class="space-answer-radio">
+                        Mercury
+                    </label>
+                </div>
+                <div class="space-answers">
+                    <label class="space-answer">
+                        <input type="radio" name="question-1" value="Mars" class="space-answer-radio">
+                        Mars
+                    </label>
+                </div>
+            </div>
+            <div class="space-buttons">
+                <button type="button" class="space-explore">Explore</button>
+                <button type="button" class="space-reset">Reset</button>
+            </div>
+            
+        </form>
+     <div class="space-result">
+        <h2 class="result-heading"></h2>
+        <p class="result-mass"></p>
+        <p class="result-gravity"></p>
+        <p class="result-density"></p>
+        <p class="error-message" style="color: red;"></p>
+        </div> 
+    </body>
+    </html>

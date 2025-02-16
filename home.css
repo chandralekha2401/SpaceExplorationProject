@@ -1,0 +1,62 @@
+body {
+     padding: 10px;   
+     background: url(./space.jpg);
+     background-size: 100%;
+     background-attachment: fixed;
+     margin: 0;
+}
+.header-logo{
+    border: 5px solid rgb(0, 183, 255);
+    width: 60%;
+    justify-content: center; 
+    margin: 20px 50px; 
+    color: red;
+    padding-left: 35%;
+
+}
+.space{
+    font-size: 25px;
+    display: grid;
+    justify-content: center; 
+
+}
+.space-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.space-question {
+    font-weight: bold;
+    color:beige;
+}
+.space-answers{
+    color:beige;
+    margin-left: 5%;
+    display: inline-flex;
+}
+
+.space-explore {
+    padding: 10px 20px;
+    background: lightgreen;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    margin-left: 18%;
+    margin-right: 20px;
+    
+}
+
+.space-reset {
+    padding: 10px 20px;
+    background: pink;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+.space-result{
+    color: beige;
+
+}
